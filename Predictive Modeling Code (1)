@@ -1,0 +1,58 @@
+
+count1 = 0
+count2 = 0
+
+a = str(input('Does the trend of factor 1 support the idea that libraries are becoming obsolete? (Y/N)'))
+if a == "Y":
+    count1 += 1
+if a == "N":
+    count2 += 1
+
+b = str(input('Does the trend of factor 2 support the idea that libraries are becoming obsolete? (Y/N)'))
+if b == "Y":
+    count1 += 1
+if b == "N":
+    count2 += 1
+    
+c = str(input('Does the trend of factor 3 support the idea that libraries are becoming obsolete? (Y/N)'))
+if c == "Y":
+    count1 += 1
+if c == "N":
+    count2 += 1
+    
+d = str(input('Does the trend of factor 4 support the idea that libraries are becoming obsolete? (Y/N)'))
+if d == "Y":
+    count1 += 1
+if d == "N":
+    count2 += 1
+    
+e = str(input('Does the trend of factor 5 support the idea that libraries are becoming obsolete? (Y/N)'))
+if e == "Y":
+    count1 += 1
+if e == "N":
+    count2 += 1
+    
+f = str(input('Does the trend of factor 6 support the idea that libraries are becoming obsolete? (Y/N)'))
+if f == "Y":
+    count1 += 1
+if f == "N":
+    count2 += 1
+    
+g = str(input('Does the trend of factor 7 support the idea that libraries are becoming obsolete? (Y/N)'))
+if g == "Y":
+    count1 += 1
+if g == "N":
+    count2 += 1
+    
+h = str(input('Does the trend of factor 8 support the idea that libraries are becoming obsolete? (Y/N)'))
+if h == "Y":
+    count1 += 1
+if h == "N":
+    count2 += 1
+
+if count1 > count2:
+    print('Based on the resulting trends of the data, libraries are becoming obsolete in our everyday society.')
+if count1 < count2:
+    print('Based on the resulting trends of the data, libraries are not becoming obsolete in our everyday society.')
+if count1 == count2:
+    print('The state of libraries cannot be properly predicted based on the trends of the data provided.')
